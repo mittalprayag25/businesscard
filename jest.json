@@ -1,0 +1,26 @@
+{
+  "stats": {
+    "tests": 2,
+    "passes": 2,
+    "failures": 0,
+    "duration": 1304,
+    "start": "2023-04-09T17:05:42.761Z",
+    "end": "2023-04-09T17:05:44.065Z"
+  },
+  "failures": [],
+  "passes": [
+    {
+      "title": "should match snapshot",
+      "fullTitle": "Business Card List should match snapshot",
+      "duration": 1218,
+      "errorCount": 0
+    },
+    {
+      "title": "should match snapshot",
+      "fullTitle": "Business Card List with saved Cards should match snapshot",
+      "duration": 1218,
+      "errorCount": 0
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,462 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Business Card List should match snapshot 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text>
+      List is empty
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`Business Card List should match snapshot 2`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <RCTScrollView
+    collapsable={false}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    style={
+      Object {
+        "marginTop": 20,
+        "width": "90%",
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 10,
+              "elevation": 8,
+              "paddingHorizontal": 20,
+              "paddingTop": 10,
+              "shadowColor": "white",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "shadowRadius": 6,
+            },
+            Object {
+              "backgroundColor": "white",
+              "height": 200,
+              "marginTop": 10,
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <RCTScrollView>
+          <View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "height": 20,
+                      "marginHorizontal": 5,
+                      "width": 20,
+                    }
+                  }
+                />
+              </View>
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "height": 20,
+                      "marginHorizontal": 5,
+                      "width": 20,
+                    }
+                  }
+                />
+              </View>
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "height": 20,
+                      "marginHorizontal": 5,
+                      "width": 20,
+                    }
+                  }
+                />
+              </View>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              Test
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              IT
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              Affinidi
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              aa@bb.com
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              98765437
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              
+            </Text>
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
+
+exports[`Business Card List with saved Cards should match snapshot 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <RCTScrollView
+    collapsable={false}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    style={
+      Object {
+        "marginTop": 20,
+        "width": "90%",
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 10,
+              "elevation": 8,
+              "paddingHorizontal": 20,
+              "paddingTop": 10,
+              "shadowColor": "white",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "shadowRadius": 6,
+            },
+            Object {
+              "backgroundColor": "white",
+              "height": 200,
+              "marginTop": 10,
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <RCTScrollView>
+          <View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "height": 20,
+                      "marginHorizontal": 5,
+                      "width": 20,
+                    }
+                  }
+                />
+              </View>
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "height": 20,
+                      "marginHorizontal": 5,
+                      "width": 20,
+                    }
+                  }
+                />
+              </View>
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "height": 20,
+                      "marginHorizontal": 5,
+                      "width": 20,
+                    }
+                  }
+                />
+              </View>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              Test
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              IT
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              Affinidi
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              aa@bb.com
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              98765437
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": 14,
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              
+            </Text>
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
