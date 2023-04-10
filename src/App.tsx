@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import 'react-native-gesture-handler';
-import BusinessDetails from './containers/BusinessDetails';
+import BusinessCardDetails from './containers/BusinessCardDetails';
 import SavedDetails from './components/SavedDetails';
 import BusinessCardList from './containers/BusinessCardList';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -19,11 +19,12 @@ export default function App() {
         <PersistGate loading={null} persistor={persistor}>
           <NavigationContainer>
             <Stack.Navigator>
-              <Stack.Screen name="BusinessCard" component={BusinessCardList} />
+              <Stack.Screen name="BusinessCard" component={BusinessCardList} options={{ title: 'Business Card' }} />
               <Stack.Screen name="SavedDetails" component={SavedDetails} />
               <Stack.Screen
-                name="BusinessDetails"
-                component={BusinessDetails}
+                name="BusinessCardDetails"
+                component={BusinessCardDetails}
+                options={{ title: 'Add/View' }}
               />
             </Stack.Navigator>
           </NavigationContainer>

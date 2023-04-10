@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import Card from '../Card';
 import { Image, View, ScrollView, Text, TouchableOpacity } from 'react-native';
-import { UserDetail } from '../../containers/BusinessDetails';
+import { UserDetail } from '../../containers/BusinessCardDetails';
 import Contacts from 'react-native-contacts';
 import styles from './styles';
 

@@ -1,7 +1,7 @@
 import React, { useEffect, memo } from 'react';
 import { SafeAreaView, Image, View, TouchableOpacity } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
-import { UserDetail } from '../BusinessDetails';
+import { UserDetail } from '../BusinessCardDetails';
 import EmptyDetails from '../../components/EmptyDetails';
 import SavedDetails from '../../components/SavedDetails';
 import { useNavigation } from '@react-navigation/native';
@@ -18,7 +18,7 @@ const BusinessCardList = (): JSX.Element => {
   const { savedCards }: any = useSelector((s: RootState) => s.businessCards);
 
   const onPresshandler = () => {
-    navigation.navigate(Routes.BUSINESSDETAILS, {});
+    navigation.navigate(Routes.BUSINESSCARDDETAILS, {});
   };
 
   const onDelete = (index: number) => {
@@ -26,7 +26,7 @@ const BusinessCardList = (): JSX.Element => {
   };
 
   const openDetails = data => {
-    navigation.navigate(Routes.BUSINESSDETAILS, { card: data });
+    navigation.navigate(Routes.BUSINESSCARDDETAILS, { card: data });
   };
 
   useEffect(() => {

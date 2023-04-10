@@ -1,5 +1,5 @@
 export const Routes = {
-  BUSINESSDETAILS: 'BusinessDetails',
+  BUSINESSCARDDETAILS: 'BusinessCardDetails',
   SAVEDDETAILS: 'SavedDetails',
   BUSINESSCARDLIST: 'BusinessCardList',
 };

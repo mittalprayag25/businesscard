@@ -1,6 +1,6 @@
 import React, { useEffect, memo } from 'react';
 import { Alert, Button, ScrollView, Text, TextInput } from 'react-native';
-import Card from './../../components/Card';
+import Card from '../../components/Card';
 import { useDispatch } from 'react-redux';
 import { useNavigation } from '@react-navigation/native';
 import styles from './styles';
@@ -17,7 +17,7 @@ export interface UserDetail {
   linkedin?: string;
 }
 
-const BusinessDetails = ({ route }): JSX.Element => {
+const BusinessCardDetails = ({ route }): JSX.Element => {
   const navigation = useNavigation();
   const { card } = route.params;
   useEffect(() => {
@@ -138,4 +138,4 @@ const BusinessDetails = ({ route }): JSX.Element => {
   );
 };
 
-export default memo(BusinessDetails);
+export default memo(BusinessCardDetails);
