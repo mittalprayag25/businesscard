@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, memo } from 'react';
 import { Alert, Button, ScrollView, Text, TextInput } from 'react-native';
 import Card from './../../components/Card';
 import { useDispatch } from 'react-redux';
@@ -138,4 +138,4 @@ const BusinessDetails = ({ route }): JSX.Element => {
   );
 };
 
-export default BusinessDetails;
+export default memo(BusinessDetails);

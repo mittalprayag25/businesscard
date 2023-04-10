@@ -2,7 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import 'react-native-gesture-handler';
 import BusinessDetails from './containers/BusinessDetails';
-import SavedDetails from './containers/SavedDetails';
+import SavedDetails from './components/SavedDetails';
 import BusinessCardList from './containers/BusinessCardList';
 import { createStackNavigator } from '@react-navigation/stack';
 import { RootStackParamList } from './screens/RootStackPrams';

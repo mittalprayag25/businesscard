@@ -1,7 +1,7 @@
-import React from 'react';
-import Card from '../../components/Card';
+import React, { memo } from 'react';
+import Card from '../Card';
 import { Image, View, ScrollView, Text, TouchableOpacity } from 'react-native';
-import { UserDetail } from '../BusinessDetails';
+import { UserDetail } from '../../containers/BusinessDetails';
 import Contacts from 'react-native-contacts';
 import styles from './styles';
 
@@ -77,4 +77,4 @@ const SavedDetails: React.FC<ISavedDetails> = (props: ISavedDetails) => {
   );
 };
 
-export default SavedDetails;
+export default memo(SavedDetails);

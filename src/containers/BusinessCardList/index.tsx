@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, memo } from 'react';
 import { SafeAreaView, Image, View, TouchableOpacity } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
 import { UserDetail } from '../BusinessDetails';
 import EmptyDetails from '../../components/EmptyDetails';
-import SavedDetails from '../SavedDetails';
+import SavedDetails from '../../components/SavedDetails';
 import { useNavigation } from '@react-navigation/native';
 import actions from '../../redux/actions';
 import { ScrollView } from 'react-native-gesture-handler';
@@ -71,4 +71,4 @@ const BusinessCardList = (): JSX.Element => {
   );
 };
 
-export default BusinessCardList;
+export default memo(BusinessCardList);
